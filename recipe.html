@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <link rel="stylesheet" href="./recipeMain.css" />
+    </head>
+    <body>
+        <main>
+            <fieldset>
+                <legend>Rezept</legend>
+                    <div><img class="titlepic" src="hackepeterbroetchen.jpg" alt width="209"></div>
+<span>
+    <div><input class="title" type="text" name="title" size="30" placeholder="Titel"></div>
+    <select name="category">
+            <option value>Hauptgang</option>
+            <option value>Appetizer</option>
+            <option value>Snack</option>
+            <option value>Dessert</option>
+            <option value>Frühstück</option>
+            <option value>Buffet</option>
+            <option value>Barbecue</option>
+            <option value>Jugendgericht</option>
+            <option value>Kindergericht</option>
+    </select>
+</span>
+<span>
+    <label class="labelsh" for="pescatarian">Pescetarian</label><input class="check" type="checkbox" name="pescetarian">
+    <label class="labelsh" for="lactoOvoVegetarian">LactoOvoVegetarian</label><input class="check" type="checkbox" name="lactoOvoVegetarian">
+    <label class="labelsh" for="lactoVegetarian">LactoVegetarian</label><input class="check" type="checkbox" name="lactoVegetarian">
+    <label class="labelsh" for="vegan">Vegan</label><input class="check" type="checkbox" name="vegan">
+</span>
+                    <div><label for="description">Beschreibung</label></div><div><textarea name="description" id cols="50" rows="5" placeholder="description"></textarea></div>
+                    <div><label for="instruction">Anleitung</label></div><div><textarea name="instruction" id cols="50" rows="20" placeholder="instruction"></textarea></div>
+                    <div><label for="email">Urheber</label><input type="email" name="ownerEmail" id readonly placeholder="email"></div>
+            </fieldset>
+            <fieldset>
+                <table>
+                    <tr>
+                        <th>Avatar</th>
+                        <th>Alias</th>
+                        <th>Menge</th>
+                        <th>Einheit</th>
+                        <th>Pesc</th>
+                        <th>LactoOvoVeg</th>
+                        <th>LactoVeg</th>
+                        <th>Vegan</th>
+                    </tr>
+                    <tr>
+                        <td><img src="./hackepeter.jpg" alt="" height="60"></td>
+                        <td><input type="text" name="alias"></td>
+                        <td><input class="menge" type="number" name="menge"></td>
+                        <td><select class="einheit" name="einheit">
+                            <option value="ml">ml</option>
+                            <option value="gr">gr</option>
+                            <option value="Stück">Stk</option>
+                            <option value="EL">EL</option>
+                            <option value="TL">TL</option>
+                            <option value="Prise">Prise</option>
+                        </select></td>
+                        <td><input type="checkbox" name="pescatarian"></td>
+                        <td><input type="checkbox" name="lactoOvoVegetarian"></td>
+                        <td><input type="checkbox" name="lactoVegetarian"></td>
+                        <td><input type="checkbox" name="vegan"></td>
+                    </tr>
+                    <tr>
+                        <td><img src="./salz.jpg" alt="" height="60"></td>
+                        <td><input type="text" name="alias"></td>
+                        <td><input class="menge" type="number" name="menge"></td>
+                        <td><select class="einheit" name="einheit">
+                            <option value="ml">ml</option>
+                            <option value="gr">gr</option>
+                            <option value="Stück">Stk</option>
+                            <option value="EL">EL</option>
+                            <option value="TL">TL</option>
+                            <option value="Prise">Prise</option>
+                        </select></td>
+                        <td><input type="checkbox" name="pescatarian" checked></td>
+                        <td><input type="checkbox" name="lactoOvoVegetarian" checked></td>
+                        <td><input type="checkbox" name="lactoVegetarian" checked></td>
+                        <td><input type="checkbox" name="vegan" checked></td>
+                    </tr>
+                    <tr>
+                        <td><img src="./pfeffer.jpg" alt="" height="60"></td>
+                        <td><input type="text" name="alias"></td>
+                        <td><input class="menge" type="number" name="menge"></td>
+                        <td><select class="einheit" name="einheit">
+                            <option value="ml">ml</option>
+                            <option value="gr">gr</option>
+                            <option value="Stück">Stk</option>
+                            <option value="EL">EL</option>
+                            <option value="TL">TL</option>
+                            <option value="Prise">Prise</option>
+                        </select></td>
+                        <td><input type="checkbox" name="pescatarian" checked></td>
+                        <td><input type="checkbox" name="lactoOvoVegetarian" checked></td>
+                        <td><input type="checkbox" name="lactoVegetarian" checked></td>
+                        <td><input type="checkbox" name="vegan" checked></td>
+                    </tr>
+                    <tr>
+                        <td><img src="./zwiebel.jpg" alt="" height="60"></td>
+                        <td><input type="text" name="alias"></td>
+                        <td><input class="menge" type="number" name="menge"></td>
+                        <td><select class="einheit" name="einheit">
+                            <option value="ml">ml</option>
+                            <option value="gr">gr</option>
+                            <option value="Stück">Stk</option>
+                            <option value="EL">EL</option>
+                            <option value="TL">TL</option>
+                            <option value="Prise">Prise</option>
+                        </select></td>
+                        <td><input type="checkbox" name="pescatarian" checked></td>
+                        <td><input type="checkbox" name="lactoOvoVegetarian" checked></td>
+                        <td><input type="checkbox" name="lactoVegetarian" checked></td>
+                        <td><input type="checkbox" name="vegan" checked></td>
+                    </tr>
+                    <tr>
+                        <td><img src="./Unbenannt.jpg" alt="" height="60"></td>
+                        <td><input type="text" name="alias"></td>
+                        <td><input class="menge" type="number" name="menge"></td>
+                        <td><select class="einheit" name="einheit">
+                            <option value="ml">ml</option>
+                            <option value="gr">gr</option>
+                            <option value="Stück">Stk</option>
+                            <option value="EL">EL</option>
+                            <option value="TL">TL</option>
+                            <option value="Prise">Prise</option>
+                        </select></td>
+                        <td><input type="checkbox" name="pescatarian" checked></td>
+                        <td><input type="checkbox" name="lactoOvoVegetarian" checked></td>
+                        <td><input type="checkbox" name="lactoVegetarian" checked></td>
+                        <td><input type="checkbox" name="vegan" checked></td>
+                    </tr>
+                </table>
+            </fieldset>
+            <fieldset class="IlluFrame">
+                <legend>Illustrationen</legend>
+                <div><iframe class="videoMedia" src="https://www.youtube.com/shorts/O1qbpZ_xViQ" frameborder="0"></iframe></div>
+                <div><iframe src="mett.pdf" frameborder="0"></iframe></div>
+                <div><iframe src="kauen.mp3" frameborder="0"></iframe></div>
+            </fieldset>
+        </main>
+    </body>
+</html>
+
+<!-- Recipe-Site (HTML & CSS)
+=================
+- avatar (Ausgabe mittels img-Element)
+- title
+- category (mittels select-Element)
+- description
+- instruction
+- ownerEmail (read-only)
+- pescatarian
+- lactoOvoVegetarian
+- lactoVegetarian
+- vegan
+- Tabelle für Ingredients (avatar, alias, pescatarian, lactoOvoVegetarian, lactoVegetarian, vegan)
+- zweite Sektion für Illustrationen (1 Video, 1 Audio, 1 PDF) -->
